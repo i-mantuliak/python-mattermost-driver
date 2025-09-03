@@ -42,7 +42,8 @@ setup(
     packages=find_packages('src'),
     python_requires=">=3.6",
     install_requires=[
-        'aiohttp>=3.8.1<4.0.0'
-        'httpx>=0.20.0<1.0.0',
+        'aiohttp>=3.8.1,<4.0.0',
+        'httpx>=0.20.0,<0.28.0',
+        'requests==2.32.5'
     ],
 )
