@@ -18,13 +18,13 @@ with open(version_module, encoding='utf-8') as f:
     exec(f.read())
 
 setup(
-    name='mattermostdriver',
+    name='nordmattermostdriver',
     version=full_version,
     description='A Python Mattermost Driver',
     long_description=long_description,
-    url='https://github.com/Vaelor/python-mattermost-driver',
-    author='Christian Plümer',
-    author_email='github@kuuku.net',
+    url='https://github.com/i-mantuliak/python-mattermost-driver',
+    author='Igor Mantuliak',
+    author_email='igor.mantuliak@my.games',
     license='MIT',
     classifiers=[
         'Development Status :: 5 - Production/Stable',
@@ -43,7 +43,6 @@ setup(
     python_requires=">=3.6",
     install_requires=[
         'aiohttp>=3.8.1,<4.0.0',
-        'httpx>=0.20.0,<0.28.0',
-        'requests>=2.26.0'
+        'httpx>=0.20.0,<0.28.0'
     ],
 )
